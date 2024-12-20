@@ -17,10 +17,10 @@ const Support = () => {
   ];
 
   const team = [
-    { name: "Dr. Sarah Johnson", role: "Educational Director" },
-    { name: "Mark Thompson", role: "Sign Language Expert" },
-    { name: "Lisa Chen", role: "UX Designer" },
-    { name: "James Wilson", role: "Developer" },
+    { name: "Aditya Kumar Verma", role: "Educational Director" },
+    { name: "Purnima Sharma", role: "Sign Language Expert" },
+    { name: "Nilam Kumari", role: "UX Designer" },
+    { name: "Om Sharma", role: "Developer" },
   ];
 
   return (

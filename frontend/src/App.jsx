@@ -10,6 +10,7 @@ import SignUp from "./pages/SignUp";
 import WatchLearn from './pages/WatchLearn';
 import QuizTime from './pages/QuizTime';
 import PlayLearn from './pages/PlayLearn';
+import ColorMatch from './components/games/ColorMatch.jsx'
 // import ProtectedRoute from "./components/ProtectedRoute";  
 import "bootstrap/dist/css/bootstrap.min.css";
 import "material-design-iconic-font/dist/css/material-design-iconic-font.min.css";
@@ -45,6 +46,7 @@ function App() {
                 <Route path="/watch-learn" element={<WatchLearn />} />
                 <Route path="/quiz-time" element={<QuizTime />} />
                 <Route path="/play-learn" element={<PlayLearn />} />
+                <Route path="/color-match" element={<ColorMatch />} />
               </Routes>
             </Layout>
           }
